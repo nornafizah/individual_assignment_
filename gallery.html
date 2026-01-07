@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        body 
+        {
+            margin: 0;
+            text-align: center;
+        }
+
+        h1 
+        {
+    
+            font-family: Garamond;
+            font-size: 350%;
+            background-color: burlywood;
+            color: saddlebrown;
+            padding: 20px;
+            margin: 0;
+        }
+        h3
+        {
+            font-family: Century gothic;
+            color: black;
+          
+        }
+        a 
+        {
+            text-decoration: none;
+            color: darkblue;
+            font-weight: bold;
+            padding: 5px 10px;
+            font-family: Garamond;
+
+        }
+
+        a:hover {
+            background-color: floralwhite;
+            border-radius: 6px;
+        }
+
+        a img:hover 
+        {
+           background-color: transparent;
+           border-radius: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>🦩A Tiny Story About Me🦩</h1>
+<p></p>
+
+<a href="index.html">Home</a>
+<a href="about_me.html">About Me</a>
+<a href="education.html">Education</a>
+<a href="experience.html">Experience</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+
+<br>
+
+<h3 style="font-family: 'Palatino Linotype'; color: mediumvioletred; text-align: center; padding: 10px; background-color: lightyellow; display: inline-block; border-radius: 20px;">📸 MY FAVOURITE MOMENTS</h3>
+
+
+<p style="text-align:center; font-size:18px; color: hotpink;">╔══════════✿══════════╗</p>
+
+
+   <h3 style="color:darkmagenta; font-family:Garamond;">🏆 Achievement</h3>
+
+<script>
+    function mygambar (a) {
+        var pict;
+        if (a==1) { pict="image/spm.jpg"; }
+        else { pict="image/deanlist.jpg"; }
+        document.getElementById('gambar').src=pict;
+    }
+</script>
+
+<img src="image/spm.jpg" width="300" height="300" id="gambar" 
+     style="border:2px solid darkred; border-radius:20px;">
+
+<br>
+
+<p style="font-family: Cambria; color: darkred; background-color: lavender; padding: 5px; border-radius: 25px; display: inline-block;">Academic  Journey – My academic achievement during high school and university.</p>
+
+<p style="margin-top:10px;">
+    <button type="button" onclick="mygambar(1)">SPM</button>
+    <button type="button" onclick="mygambar(4)">DIPLOMA</button>
+</p>
+
+<h3 style="color:darkmagenta; font-family:Garamond;">👨‍👩‍👧‍👦 Family</h3>
+
+<script>
+    function myfamily (a) {
+        var pict;
+        if (a==1) { pict="image/hariraya1.jpg"; }
+        else { pict="image/hariraya2.jpg"; }
+        document.getElementById('family').src=pict;
+    }
+</script>
+
+<img src="image/hariraya1.jpg" width="300" height="300" id="family" 
+     style="border:2px solid darkred; border-radius:20px;">
+
+<br>
+
+<p style="font-family: Cambria; color: darkred; background-color: lavender; padding: 5px; border-radius: 25px; display: inline-block;">Hari Raya – Celebrating special moments with my family.</p>
+
+<p style="margin-top:10px;">
+    <button type="button" onclick="myfamily(1)">HARI RAYA AIDILFITRI</button>
+    <button type="button" onclick="myfamily(4)">HARI RAYA AIDILADHA</button>
+</p>
+
+<h3 style="color:darkmagenta; font-family:Garamond;">👧 Sibling</h3>
+
+<script>
+    function mysibling (a) {
+        var pict;
+        if (a==1) { pict="image/sibling1.jpg"; }
+        else { pict="image/sibling2.jpg"; }
+        document.getElementById('sibling').src=pict;
+    }
+</script>
+
+<img src="image/sibling1.jpg" width="300" height="300" id="sibling" 
+     style="border:2px solid darkred; border-radius:20px;">
+
+<br>
+
+<p style="font-family: Cambria; color: darkred;  background-color: lavender; padding: 5px; border-radius: 25px; display: inline-block;">My Siblings – Sharing memories and fun times with my siblings.</p>
+
+<p style="margin-top:10px;">
+    <button type="button" onclick="mysibling(1)">SIBLING 1</button>
+    <button type="button" onclick="mysibling(4)">SIBLING 2</button>
+</p>
+
+<h3 style="color:darkmagenta; font-family:Garamond;">✨ Myself</h3>
+
+<script>
+    function myself (a) {
+        var pict;
+        if (a==1) { pict="image/self1.jpg"; }
+        else { pict="image/self2.jpg"; }
+        document.getElementById('self').src=pict;
+    }
+</script>
+
+<img src="image/self1.jpg" width="300" height="300" id="self" 
+     style="border:2px solid darkred; border-radius:20px;">
+
+<br>
+
+<p style="font-family: Cambria; color: darkred; background-color: lavender; padding: 5px; border-radius: 25px; display: inline-block;">Myself – Capturing moments of my personal growth.</p>
+
+<p style="margin-top:10px;">
+    <button type="button" onclick="myself(1)">MYSELF 1</button>
+    <button type="button" onclick="myself(4)">MYSELF 2</button>
+</p>
+
+<h3 style="color:darkmagenta; font-family:Garamond;">📚 Education</h3>
+
+<script>
+    function education (a) {
+        var pict;
+        if (a==1) { pict="image/school.jpg"; }
+        else { pict="image/university.jpg"; }
+        document.getElementById('era').src=pict;
+    }
+</script>
+
+<img src="image/school.jpg" width="300" height="300" id="era" 
+     style="border:2px solid darkred; border-radius:20px;">
+
+<br>
+
+<p style="font-family: Cambria; color: darkred; background-color: lavender; padding: 5px; border-radius: 25px; display: inline-block;">School & University – My educational journey from school to higher learning.</p>
+
+<p style="margin-top:10px;">
+    <button type="button" onclick="education(1)">SCHOOL ERA</button>
+    <button type="button" onclick="education(4)">UNIVERSITY ERA</button>
+</p>
+
+
+<p style="text-align:center; font-size:18px; color: hotpink;">╚══════════✿══════════╝</p>
+
+<footer>
+  © 2026 | My Personal Website 🌷
+</footer>
+
+
+
+
+</body>
+</html>
